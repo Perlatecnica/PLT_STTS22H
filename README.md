@@ -30,5 +30,8 @@ Factory calibrated, the STTS22H requires no additional calibration efforts on th
   - ECOPACK and RoHS compliant
 ---
 [Official documentation](https://www.st.com/en/mems-and-sensors/stts22h.html)
+
 ---
-[Example project](https://github.com/Perlatecnica/xNucleo-IKS4A1_LPS22DF_mbedOS_000-GetTemperature_GetPressure)
+## Exmaples
+
+[xNucleo-IKS4A1_LPS22DF_mbedOS_000-GetTemperature_GetPressure](https://github.com/Perlatecnica/xNucleo-IKS4A1_LPS22DF_mbedOS_000-GetTemperature_GetPressure)
