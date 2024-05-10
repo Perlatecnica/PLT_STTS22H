@@ -43,7 +43,7 @@ typedef struct{
   uint8_t bit5       : 1;
   uint8_t bit6       : 1;
   uint8_t bit7       : 1;
-} bitwise_t;
+} stts22h_bitwise_t;
 
 #define PROPERTY_DISABLE                (0U)
 #define PROPERTY_ENABLE                 (1U)
@@ -69,7 +69,7 @@ typedef struct {
 typedef struct {
   uint8_t address;
   uint8_t data;
-} ucf_line_t;
+} lps22df_ucf_line_t;
 
 #endif /* MEMS_UCF_SHARED_TYPES */
 
@@ -124,7 +124,7 @@ typedef union{
   stts22h_ctrl_t              ctrl;
   stts22h_status_t            status;
   stts22h_software_reset_t    software_reset;
-  bitwise_t                   bitwise;
+  stts22h_bitwise_t                   bitwise;
   uint8_t                     byte;
 } stts22h_reg_t;
 
