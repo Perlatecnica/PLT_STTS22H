@@ -69,7 +69,7 @@ typedef struct {
 typedef struct {
   uint8_t address;
   uint8_t data;
-} lps22df_ucf_line_t;
+} stts22h_ucf_line_t;
 
 #endif /* MEMS_UCF_SHARED_TYPES */
 
